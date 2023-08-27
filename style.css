@@ -1,0 +1,56 @@
+/* global style  */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar style start  */
+
+.navbar {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.navbar .name a {
+    text-decoration: none;
+    color: black;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.navbar .name a span {
+    color: #FD6E0A;
+}
+
+.navbar .nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .nav-menu ul {
+    display: flex;
+}
+
+.navbar .nav-menu ul li {
+    margin-left: 40px;
+    list-style: none;
+}
+
+.navbar .nav-menu ul li a {
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.navbar .nav-menu ul li a:hover {
+    background-color: #FD6E0A;
+    color: white;
+}
+
+/* navbar style finish */
